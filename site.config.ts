@@ -97,7 +97,7 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '感谢支持',
     description: '😗😗',
     methods: [
       {
@@ -114,4 +114,24 @@ export default defineSiteConfig({
       },
     ],
   },
+  /**
+   * 开启阅读统计
+   */
+  statistics: {
+    enable: true,
+    readTime: {
+      /**
+       * 阅读速度
+       */
+      speed: {
+        cn: 300,
+        en: 200,
+      },
+    },
+  },
+
+  encrypt: {
+    enable: true,
+  }
+
 })

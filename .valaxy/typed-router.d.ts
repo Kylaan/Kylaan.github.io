@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/new': RouteRecordInfo<'/posts/new', '/posts/new', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 
@@ -85,6 +86,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/hello-valaxy.md': {
       routes: '/posts/hello-valaxy'
+      views: never
+    }
+    'pages/posts/new.md': {
+      routes: '/posts/new'
       views: never
     }
     'pages/tags/index.md': {
