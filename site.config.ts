@@ -3,10 +3,11 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: "Kylaan's Blog",
+  title: "MingQi's Blog",
+  subtitle: '欢迎来到我的小站',
   author: {
-    name: 'Kylaan',
-    avatar: '/img/tutu.png',
+    name: '明琦',
+    avatar: 'https://youke1.picui.cn/s1/2025/08/18/68a3445e0a325.png',
   },
   description: 'Welcome to my site.',
   social: [
@@ -48,13 +49,13 @@ export default defineSiteConfig({
     // },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: 'https://www.zhihu.com/people/ji-feng-42-44',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/396172321',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -78,7 +79,7 @@ export default defineSiteConfig({
     // },
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: '202300091106@mail.sdu.edu.cn',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },

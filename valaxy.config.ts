@@ -22,16 +22,16 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '我的小伙伴们',
+        name: '友情链接',
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
       },
       {
-        name: '友情链接',
+        name: '历史&碎碎念',
         url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
+        icon: 'i-lucide-laugh',
+        color: '#545454ff',
       },
     ],
 
