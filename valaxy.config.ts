@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: 'Kylaan的小站',
+      title: 'MQ的小站',
     },
 
     pages: [
@@ -28,7 +28,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
+        name: '友情链接',
         url: '/girls/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
@@ -39,7 +39,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2025,
       beian: {
         enable: true,
-        icp: '苏ICP备17038157号',
+        icp: '鲁ICP备17038157号',
       },
     },
   },
