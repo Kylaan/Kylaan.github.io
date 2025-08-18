@@ -98,22 +98,17 @@ export default defineSiteConfig({
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
+    description: '😗😗',
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        url: 'https://youke1.picui.cn/s1/2025/08/18/68a34be2c00b8.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
-        name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-      {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://youke1.picui.cn/s1/2025/08/18/68a34be271225.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
