@@ -8,7 +8,7 @@ random: true
 
 #[📑网站配置文档](https://valaxy.site/guide/config/)
 
-#[🖼️图片压缩工具](https://valaxy.site/guide/config/)
+#[🖼️图片压缩工具](https://tool.xuecan.net/compress-image/)
 
 #[😄Emoji大全](https://www.emojiall.com/zh-hans)
 
