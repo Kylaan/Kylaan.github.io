@@ -48,7 +48,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       {
         name: '网站历史',
-        url: '/history/',
+        url: '/building/',
         icon: 'i-lucide-laugh',
         color: 'dodgerblue',
       },
