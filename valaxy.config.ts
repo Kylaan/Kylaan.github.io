@@ -44,19 +44,19 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '友情链接',
         url: '/links/',
         icon: 'i-tabler-link',
-        color: '#04c0f4ff',
+        color: '#9ecfff',
       },
       {
         name: '网站历史',
         url: '/building/',
         icon: 'i-lucide-laugh',
-        color: 'dodgerblue',
+        color: '#04c0f4ff',
       },
       {
         name: '文章归档',
         url: '/archives/',
         icon: 'i-si-archive-duotone',
-        color: '#2057fdff',
+        color: 'dodgerblue',
       },
     ],
 
