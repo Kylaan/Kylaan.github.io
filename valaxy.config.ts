@@ -20,18 +20,43 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: 'MQ的小站',
     },
 
+    // bg_image: {
+    //   /**
+    //    * @en Enable background image
+    //    */
+    //   enable: true,
+    //   /**
+    //    * @en Image url
+    //    */
+    //   url?: './styles/bg.png',
+    //   /**
+    //    * @en Image url when dark mode
+    //    */
+    //   // dark?: string,
+    //   /**
+    //    * @en Image opacity
+    //    */
+    //   opacity?: number,
+    // },
+
     pages: [
       {
         name: '友情链接',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-tabler-link',
+        color: '#04c0f4ff',
+      },
+      {
+        name: '网站历史',
+        url: '/history/',
+        icon: 'i-lucide-laugh',
         color: 'dodgerblue',
       },
       {
-        name: '历史&碎碎念',
-        url: '/girls/',
-        icon: 'i-lucide-laugh',
-        color: '#545454ff',
+        name: '文章归档',
+        url: '/archives/',
+        icon: 'i-si-archive-duotone',
+        color: '#2057fdff',
       },
     ],
 

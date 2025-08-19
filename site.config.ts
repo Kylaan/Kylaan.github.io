@@ -1,14 +1,37 @@
+//site.config.ts
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://Kylaan.github.io/',
   lang: 'zh-CN',
   title: "MingQi's Blog",
   subtitle: '欢迎来到我的小站',
   author: {
     name: '明琦',
-    avatar: 'https://youke1.picui.cn/s1/2025/08/18/68a3445e0a325.png',
+    avatar: "/avatar.png",
+    status: {
+      /**
+       * Emoji representation of your status like '👨‍💻'
+       * @description 你的状态的 Emoji 表示，如 '👨‍💻'
+       */
+      emoji: '👨‍💻',
+      /**
+       * show when hover emoji
+       * @description 当鼠标悬浮在图标上时显示
+       */
+      message: "Studying",
+    },
+      /**
+       * @zh 个人简介
+       */
+    // intro: "Shandong University, Mathematics and Applied Mathematics",
   },
+  
+  /**
+   * show last updated time by git/mtime
+   */
+  lastUpdated: true,
+
   description: 'Welcome to my site.',
   social: [
     {
@@ -18,8 +41,8 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ',
+      link: 'https://qq.com/',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
@@ -79,7 +102,7 @@ export default defineSiteConfig({
     // },
     {
       name: 'E-Mail',
-      link: '202300091106@mail.sdu.edu.cn',
+      link: 'mailto:202300091106@mail.sdu.edu.cn',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
@@ -93,6 +116,13 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
+    /**
+     * Search Type
+     * - algolia: Algolia Search
+     * - engine: Engine Search, like Google/Baidu
+     * - fuse: Local Search by fuse.js
+     */
+    type: 'algolia' 
   },
 
   sponsor: {
@@ -102,13 +132,13 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://youke1.picui.cn/s1/2025/08/18/68a34be2c00b8.jpg',
+        url: '/zfb.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: '微信支付',
-        url: 'https://youke1.picui.cn/s1/2025/08/18/68a34be271225.png',
+        url: '/wx.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
@@ -129,9 +159,11 @@ export default defineSiteConfig({
       },
     },
   },
-
+  //加密文章
   encrypt: {
     enable: true,
   }
 
 })
+
+
