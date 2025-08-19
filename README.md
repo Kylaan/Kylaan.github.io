@@ -1,4 +1,4 @@
 # created-from-valaxy
 
-Example: [valaxy.site](https://valaxy.site)
+Site: [Kylaan.github.io](https://Kylaan.github.io)
 
