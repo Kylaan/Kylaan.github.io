@@ -4,10 +4,10 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://Kylaan.github.io/',
   lang: 'zh-CN',
-  title: "MingQi's Blog",
+  title: "Kylaan's Blog",
   subtitle: '欢迎来到我的小站',
   author: {
-    name: '明琦',
+    name: 'Kylaan',
     avatar: "/avatar.png",
     status: {
       /**
