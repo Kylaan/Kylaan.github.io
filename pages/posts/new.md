@@ -1,37 +1,78 @@
 ---
-title: 如何建立个人网站：从零开始的完整指南
+title: Markdown示例
 date: 2025-08-18
-updated: 2025-08-18
-categories: 网站 笔记 测试
+updated: 2025-08-22
+aplayer: true
+categories: 测试
 tags:
   - 测试
-  - 笔记
 top: 1
 ---
+<meting-js
+ id="1496089152"
+ server="netease"
+ type="song"
+ theme="#eddf05">
+</meting-js>
 
-# 如何建立个人网站：从零开始的完整指南
+# Markdown 语法示例
 
-> 本文既是建站教程，也是 **Markdown 语法**的实用示例。通过阅读源码可学习各种 Markdown 元素的使用方法。
+## 标题
+
+# 一级标题
+## 二级标题
+### 三级标题
+
+## 强调
+
+**加粗文本**
+
+*斜体文本*
+
+~~删除线~~
+
+## 列表
+
+- 无序列表项 1
+- 无序列表项 2
+  - 嵌套项
+
+1. 有序列表项 1
+2. 有序列表项 2
+
+## 链接与图片
+
+[GitHub](https://github.com/)
+
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+## 代码
+
+行内代码：`console.log('Hello, Markdown!')`
+
+代码块：
+
+```python
+def hello():
+    print("Hello, Markdown!")
+```
+
+## 引用
+
+> 这是一个引用示例。
+
+## 表格
+
+| 姓名   | 年龄 |
+| ------ | ---- |
+| 张三   | 25   |
+| 李四   | 30   |
+
+## 分割线
 
 ---
 
-## 一、为什么要建立个人网站？
-- 🚀 **展示自我**：程序员的作品集/设计师的视觉库/写作者的个人专栏
-- 💼 **职业发展**：提升个人品牌影响力（75% HR会优先查看候选人个人网站）
-- 🌐 **完全掌控**：摆脱社交平台的内容限制
+## 任务列表
 
----
-
-## 二、建站基础步骤（有序列表示例）
-
-1. **选择技术方案**
-   - 静态网站生成器（推荐新手）：
-     - [Hugo](https://gohugo.io) - Go语言开发，生成速度最快
-     - [Jekyll](https://jekyllrb.com) - GitHub Pages原生支持
-     - [Hexo](https://hexo.io) - Node.js生态丰富
-   
-   ```bash
-   # 安装Hexo示例
-   npm install hexo-cli -g
-   hexo init myblog
-   cd myblog && hexo server
+- [x] 学习 Markdown
+- [ ] 完成个人网站

@@ -24,15 +24,11 @@ declare module 'vue-router/auto-routes' {
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
-    '/building/': RouteRecordInfo<'/building/', '/building', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
-    '/collections/': RouteRecordInfo<'/collections/', '/collections', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/new': RouteRecordInfo<'/posts/new', '/posts/new', Record<never, never>, Record<never, never>>,
-    '/posts/RV-Hausdorff': RouteRecordInfo<'/posts/RV-Hausdorff', '/posts/RV-Hausdorff', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 
@@ -71,16 +67,8 @@ declare module 'vue-router/auto-routes' {
       routes: '/archives/'
       views: never
     }
-    'pages/building/index.md': {
-      routes: '/building/'
-      views: never
-    }
     'pages/categories/index.md': {
       routes: '/categories/'
-      views: never
-    }
-    'pages/collections/index.md': {
-      routes: '/collections/'
       views: never
     }
     'pages/links/index.md': {
@@ -97,14 +85,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/hello-valaxy.md': {
       routes: '/posts/hello-valaxy'
-      views: never
-    }
-    'pages/posts/new.md': {
-      routes: '/posts/new'
-      views: never
-    }
-    'pages/posts/RV-Hausdorff.md': {
-      routes: '/posts/RV-Hausdorff'
       views: never
     }
     'pages/tags/index.md': {

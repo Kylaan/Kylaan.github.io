@@ -1,6 +1,9 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 
+//模板： D:\Downloads\\index.d.ts
+// https://github.com/YunYouJun/valaxy/blob/main/packages/valaxy-theme-yun/types/index.d.ts
+
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -19,55 +22,59 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       title: 'MQ的小站',
     },
-
-    // bg_image: {
-    //   /**
-    //    * @en Enable background image
-    //    */
-    //   enable: true,
-    //   /**
-    //    * @en Image url
-    //    */
-    //   url?: './styles/bg.png',
-    //   /**
-    //    * @en Image url when dark mode
-    //    */
-    //   // dark?: string,
-    //   /**
-    //    * @en Image opacity
-    //    */
-    //   opacity?: number,
-    // },
-
     pages: [
       {
         name: '友情链接',
         url: '/links/',
         icon: 'i-tabler-link',
-        color: '#9ecfff',
+        color: '#97b3cc',
       },
       {
         name: '网站历史',
         url: '/building/',
         icon: 'i-lucide-laugh',
-        color: '#04c0f4ff',
+        color: '#718699',
       },
       {
         name: '文章归档',
         url: '/archives/',
         icon: 'i-si-archive-duotone',
-        color: 'dodgerblue',
+        color: '#536371',
       },
     ],
 
+    nav: [
+      {
+        text: '关于我',
+        link: '/about/',
+        icon: 'i-ri-user-3-line',
+      },
+      {
+        text: '友链',
+        link: '/links/',
+        icon: 'i-tabler-link',
+      },
+      {
+        text: '留言板',
+        link: '/message/',
+        icon: 'i-ri-chat-1-line',
+      },
+    ],
     footer: {
       since: 2025,
-      beian: {
+      icon: {
         enable: true,
-        icp: '鲁ICP备17038157号',
+        name: "i-ri-user-2-line",
+        animated: true,
+        // color: "#718699",
+        url: "/about/",
+        title: '关于我',
+        },
+      
+        powered: true,
       },
-    },
+    
   },
-
+  
   unocss: { safelist },
 })
