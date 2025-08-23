@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Kylaan's Blog</title>
+        <link>https://Kylaan.github.io/</link>
+        <description>Welcome to my site.</description>
+        <lastBuildDate>Sat, 23 Aug 2025 14:06:26 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Kylaan's Blog</title>
+            <url>https://Kylaan.github.io/avatar.png</url>
+            <link>https://Kylaan.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2025 © Kylaan</copyright>
+        <atom:link href="https://Kylaan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Markdown示例]]></title>
+            <link>https://Kylaan.github.io/posts/new</link>
+            <guid isPermaLink="false">https://Kylaan.github.io/posts/new</guid>
+            <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><meting-js
+ id="1496089152"
+ server="netease"
+ type="song"
+ theme="#eddf05"><br>
+</meting-js></p>
+<h1>Markdow</h1>
+<br/><p>访问 <a href="https://Kylaan.github.io/posts/new" target="_blank">https://Kylaan.github.io/posts/new</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Kylaan)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hausdorff测度与维数]]></title>
+            <link>https://Kylaan.github.io/posts/RV-Hausdorff</link>
+            <guid isPermaLink="false">https://Kylaan.github.io/posts/RV-Hausdorff</guid>
+            <pubDate>Tue, 19 Aug 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>[[toc]]</p>
+<h1>引言</h1>
+<h2>摘要</h2>
+<p>本报告旨在探讨Hausdorff测度这一量化集合“大小”的先进工具。鉴于传统Lebesgue测度在处理诸如Cantor集和Koch雪花曲线等具有</p>
+<br/><p>访问 <a href="https://Kylaan.github.io/posts/RV-Hausdorff" target="_blank">https://Kylaan.github.io/posts/RV-Hausdorff</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Kylaan)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://Kylaan.github.io/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://Kylaan.github.io/posts/hello-valaxy</guid>
+            <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Hello! It's my first post with Valaxy!</p>
+<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write yo</p>
+<br/><p>访问 <a href="https://Kylaan.github.io/posts/hello-valaxy" target="_blank">https://Kylaan.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Kylaan)</author>
+        </item>
+    </channel>
+</rss>
